@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Clipboard FF Extension",
+    "version": "1.0",
+    "description": "A tool to manage and copy text strings to the clipboard.",
+    "permissions": ["storage", "clipboardWrite"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icons/icon-48.png"
+      }
+    },
+    "icons": {
+      "48": "icons/icon-48.png"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+  

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Manager</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      margin: 0;
+      padding: 10px;
+    }
+    #textList {
+      list-style: none;
+      padding: 0;
+    }
+    #textList li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    button {
+      margin-left: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Text Manager</h3>
+  <input type="text" id="newText" placeholder="Enter new text" />
+  <button id="addText">Add</button>
+  <ul id="textList"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
