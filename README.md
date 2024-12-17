@@ -1,0 +1,1 @@
+# clipboard_ff_ext
